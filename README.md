@@ -36,7 +36,7 @@ origin https://github.com/username-source/repository-name.git (push)
 
 1. Chequea que todos los PR's que se encuentran mergueados tengan un milestone asignado, si no es así asignele el milestone correspondiente.
 
-2. Crear rama de release 1.0 desde master
+2. Crear rama de release 1.0 desde main
 
 ```sh
 $ git checkout -b "release/1.0"
@@ -46,7 +46,7 @@ $ git checkout -b "release/1.0"
 
 4. Subir los cambios a la rama release
 
-5. Generar PR para enviar los cambios del cambio de version a master
+5. Generar PR para enviar los cambios del cambio de version a main
 
 6. Crear el milestone para el siguiente release
 
